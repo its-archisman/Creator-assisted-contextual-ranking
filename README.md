@@ -24,7 +24,7 @@ We have a pool of videos which a particular creator has uploaded and his prefere
   user.
 
   In this, we have a weight matrix W, a feature vector of each arm $y_a$, a feature vector of the user as $x_a$.
-  W is a matrix of size (size<sub>arm vector</sub> x size<sub>user vector</sub>), which stores the preference of each user feature towards each arm feature.
+  W is a matrix of size (size<sub>user vector</sub> x size<sub>arm vector</sub>), which stores the preference of each user feature towards each arm feature.
   
   Then we estimate:
 
