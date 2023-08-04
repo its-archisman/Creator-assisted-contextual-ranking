@@ -15,7 +15,7 @@ We have a pool of videos which a particular creator has uploaded and his prefere
   That is, | a -> b | = 2, | b -> c | = 1 and so on.
 
   On the row-side, it will contain the entire list of actions, while on the column side, it will contain only the videos of the particular creator.
-  So, if the current student state is suppose $a_T$, And the student has followed a learning path of $a_1, a_2, ... , a_(t-1)$, then it will
+  So, if the current student state is suppose $a_T$, And the student has followed a learning path of $a_1, a_2, ... , a$<sub>t-1</sub>, then it will
   suggest the action will the highest correlation value, and which has been not been chosen before.
 
   This approach ensures that the recommended actions are not only influenced by the creator's ranking but also tailored to the user's historical behavior and present state. 
