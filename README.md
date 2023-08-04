@@ -3,7 +3,7 @@
 # Creator-assisted-contextual-ranking
 ### Problem:
 
-#### Say we have a creator who has uploaded many videos on YouTube. What he just does is that, he submits a ranking of the videos, according to his preference. So, he  would like the higher ranked videos to be watched more than the lower ranked ones. But, we cannot really present the same ranking while recommending to a particular user. This is a contextual problem, since it depends on the present context with which we are dealing with. That is, a particular user will have a particular choice at a particular time. Hence, we have to take care of that and recommend a ranking which balances he user as well as creator satisfaction.
+#### Say we have a creator who has uploaded many videos on YouTube. What he just does is that, he submits a ranking of the videos, according to his preference. So, he  would like the higher ranked videos to be watched more than the lower ranked ones. But, we cannot really present the same ranking while recommending to a particular user. This is a contextual problem, since it depends on the present context with which we are dealing with. That is, a particular user will have a particular choice at a particular time. Hence, we have to take care of that and recommend a ranking which balances the user as well as creator satisfaction.
 
 We have a pool of videos which a particular creator has uploaded and his preference sorted accordingly. We also have a particular user for whom we shall present a ranking of recommendations.
 
@@ -15,7 +15,7 @@ We have a pool of videos which a particular creator has uploaded and his prefere
   That is, | a -> b | = 2, | b -> c | = 1 and so on.
 
   On the row-side, it will contain the entire list of actions, while on the column side, it will contain only the videos of the particular creator.
-  So, if the current student state is suppose $a_T$, And the student has followed a learning path of $a_1, a_2, ... , a$<sub>t-1</sub>, then it will
+  So, if the current student state is suppose $a_t$, And the student has followed a learning path of $a_1, a_2, ... , a$<sub>t-1</sub>, then it will
   suggest the action will the highest correlation value, and which has been not been chosen before.
 
   This approach ensures that the recommended actions are not only influenced by the creator's ranking but also tailored to the user's historical behavior and present state. 
